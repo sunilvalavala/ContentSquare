@@ -1,0 +1,13 @@
+region = "us-east-1"
+access_key = "AKIAT5OKDSZRUL6JMYVS"
+secret_key = "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"
+vpc_cidr_block = "10.0.0.0/16"
+aws_subnet_Prod01 = "10.0.1.0/24"
+availability_zone01_prod = "us-east-1a"
+aws_subnet_Prod02 = "10.0.2.0/24"
+aws_subnet_staging = "10.0.3.0/24"
+availability_zone02_prod = "us-east-1b"
+availability_zone = ["us-east-1a","us-east-1b","us-east-1c"]
+key_name = "kpdevops"
+ami = "ami-00ddb0e5626798373"
+ssl_certificate_id = "arn:aws:acm:us-east-1:269396186723:certificate/8788c8c4-ef76-4d1a-a885-94d21adae0d1"
